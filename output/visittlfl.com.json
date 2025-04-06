@@ -1,0 +1,3425 @@
+{
+  "grid": [
+    {
+      "id": "mainNav",
+      "tag": "nav",
+      "x": 8,
+      "y": 8,
+      "width": 1264,
+      "height": 91,
+      "zIndex": 0
+    },
+    {
+      "id": null,
+      "tag": "header",
+      "x": 8,
+      "y": 120.4375,
+      "width": 1264,
+      "height": 117.15625,
+      "zIndex": 0
+    },
+    {
+      "id": "services",
+      "tag": "section",
+      "x": 8,
+      "y": 257.5,
+      "width": 1264,
+      "height": 1238.5,
+      "zIndex": 0
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "x": 8,
+      "y": 1515.90625,
+      "width": 1264,
+      "height": 323.0625,
+      "zIndex": 0
+    },
+    {
+      "id": "join_now",
+      "tag": "section",
+      "x": 8,
+      "y": 1858.875,
+      "width": 1264,
+      "height": 453.90625,
+      "zIndex": 0
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "x": 8,
+      "y": 2332.6875,
+      "width": 1264,
+      "height": 131.625,
+      "zIndex": 0
+    },
+    {
+      "id": null,
+      "tag": "footer",
+      "x": 8,
+      "y": 2483.03125,
+      "width": 1264,
+      "height": 36,
+      "zIndex": 0
+    },
+    {
+      "id": "termsofusemodal",
+      "tag": "div",
+      "x": 8,
+      "y": 2519.03125,
+      "width": 1264,
+      "height": 2571.4375,
+      "zIndex": 0
+    },
+    {
+      "id": "privacypolicymodal",
+      "tag": "div",
+      "x": 8,
+      "y": 5106.46875,
+      "width": 1264,
+      "height": 2717.4375,
+      "zIndex": 0
+    }
+  ],
+  "elements": [
+    {
+      "id": "mainNav",
+      "tag": "nav",
+      "classes": [
+        "navbar",
+        "navbar-expand-lg",
+        "navbar-dark",
+        "fixed-top"
+      ],
+      "attributes": {},
+      "styles": {},
+      "position": {
+        "x": 8,
+        "y": 8,
+        "width": 1264,
+        "height": 91
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "container"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "button",
+              "classes": [
+                "navbar-toggler"
+              ],
+              "attributes": {
+                "type": "button",
+                "data-bs-toggle": "collapse",
+                "data-bs-target": "#navbarResponsive",
+                "aria-controls": "navbarResponsive",
+                "aria-expanded": "false",
+                "aria-label": "Toggle navigation"
+              },
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "svg",
+                  "classes": [
+                    "svg-inline--fa",
+                    "fa-bars",
+                    "ms-1"
+                  ],
+                  "attributes": {
+                    "aria-hidden": "true",
+                    "focusable": "false",
+                    "data-prefix": "fas",
+                    "data-icon": "bars",
+                    "role": "img",
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "viewbox": "0 0 448 512",
+                    "data-fa-i2svg": ""
+                  },
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "path",
+                      "classes": [],
+                      "attributes": {
+                        "fill": "currentColor",
+                        "d": "M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"
+                      },
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "navbarResponsive",
+              "tag": "div",
+              "classes": [
+                "collapse",
+                "navbar-collapse"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "ul",
+                  "classes": [
+                    "navbar-nav",
+                    "text-uppercase",
+                    "ms-auto",
+                    "py-4",
+                    "py-lg-0"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "li",
+                      "classes": [
+                        "nav-item"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Services",
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "a",
+                          "classes": [
+                            "nav-link"
+                          ],
+                          "attributes": {
+                            "href": "#services"
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": "Services",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": null,
+                      "tag": "li",
+                      "classes": [
+                        "nav-item"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "About",
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "a",
+                          "classes": [
+                            "nav-link"
+                          ],
+                          "attributes": {
+                            "href": "#about"
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": "About",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": null,
+                      "tag": "li",
+                      "classes": [
+                        "nav-item"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Contact",
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "a",
+                          "classes": [
+                            "nav-link"
+                          ],
+                          "attributes": {
+                            "href": "#contact"
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": "Contact",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": null,
+      "tag": "header",
+      "classes": [
+        "masthead"
+      ],
+      "attributes": {},
+      "styles": {},
+      "position": {
+        "x": 8,
+        "y": 120.4375,
+        "width": 1264,
+        "height": 117.15625
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "container"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "h1",
+              "classes": [
+                "masthead-subheading"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": "Welcome To VISITTLFL!",
+              "children": []
+            },
+            {
+              "id": null,
+              "tag": "h3",
+              "classes": [
+                "masthead-heading",
+                "text-uppercase"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": "PROVIDING CAMPAIGN MANAGEMENT SINCE 2020",
+              "children": []
+            },
+            {
+              "id": null,
+              "tag": "a",
+              "classes": [
+                "btn",
+                "btn-primary",
+                "btn-xl",
+                "text-uppercase"
+              ],
+              "attributes": {
+                "href": "#services"
+              },
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": "Tell Me More",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "tag": "section",
+      "classes": [
+        "page-section"
+      ],
+      "attributes": {},
+      "styles": {},
+      "position": {
+        "x": 8,
+        "y": 257.5,
+        "width": 1264,
+        "height": 1238.5
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "container"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "div",
+              "classes": [
+                "text-center"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "h2",
+                  "classes": [
+                    "section-heading",
+                    "text-uppercase"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": "Services",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": null,
+              "tag": "div",
+              "classes": [
+                "row",
+                "text-center"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "col-md-4"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "span",
+                      "classes": [
+                        "fa-stack",
+                        "fa-4x"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "svg",
+                          "classes": [
+                            "svg-inline--fa",
+                            "fa-circle",
+                            "fa-stack-2x",
+                            "text-primary"
+                          ],
+                          "attributes": {
+                            "aria-hidden": "true",
+                            "focusable": "false",
+                            "data-prefix": "fas",
+                            "data-icon": "circle",
+                            "role": "img",
+                            "xmlns": "http://www.w3.org/2000/svg",
+                            "viewbox": "0 0 512 512",
+                            "data-fa-i2svg": ""
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": null,
+                          "children": [
+                            {
+                              "id": null,
+                              "tag": "path",
+                              "classes": [],
+                              "attributes": {
+                                "fill": "currentColor",
+                                "d": "M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"
+                              },
+                              "styles": {},
+                              "position": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "text": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": null,
+                          "tag": "svg",
+                          "classes": [
+                            "svg-inline--fa",
+                            "fa-cart-shopping",
+                            "fa-stack-1x",
+                            "fa-inverse"
+                          ],
+                          "attributes": {
+                            "aria-hidden": "true",
+                            "focusable": "false",
+                            "data-prefix": "fas",
+                            "data-icon": "cart-shopping",
+                            "role": "img",
+                            "xmlns": "http://www.w3.org/2000/svg",
+                            "viewbox": "0 0 576 512",
+                            "data-fa-i2svg": ""
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": null,
+                          "children": [
+                            {
+                              "id": null,
+                              "tag": "path",
+                              "classes": [],
+                              "attributes": {
+                                "fill": "currentColor",
+                                "d": "M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"
+                              },
+                              "styles": {},
+                              "position": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "text": null,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": null,
+                      "tag": "h4",
+                      "classes": [
+                        "my-3"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Curated Messaging",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "From full stack development to full service creative branding, we will help you get your business in the mind and more importantly, into the phones of your most valued customers.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Need creative services for your email or landing pages? Reach out to your Client Success Manager for more information on our available a la carte offerings as well as our all-in-one creative packages.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Sending SMS messages to your clients, remember to keep it brief. Keeping it to less than 160 characters and getting directly to the point will help keep your customer engaged.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "For email, we highly recommend you build your HTML emails for responsive design, and just like with SMS text message marketing, keep your emails simple. Don’t overload with too many call to actions or too many links. Engagement is key with email and keeping your emails simple and brief will help generate the greater ROI for your business.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "col-md-4"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "span",
+                      "classes": [
+                        "fa-stack",
+                        "fa-4x"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "svg",
+                          "classes": [
+                            "svg-inline--fa",
+                            "fa-circle",
+                            "fa-stack-2x",
+                            "text-primary"
+                          ],
+                          "attributes": {
+                            "aria-hidden": "true",
+                            "focusable": "false",
+                            "data-prefix": "fas",
+                            "data-icon": "circle",
+                            "role": "img",
+                            "xmlns": "http://www.w3.org/2000/svg",
+                            "viewbox": "0 0 512 512",
+                            "data-fa-i2svg": ""
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": null,
+                          "children": [
+                            {
+                              "id": null,
+                              "tag": "path",
+                              "classes": [],
+                              "attributes": {
+                                "fill": "currentColor",
+                                "d": "M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"
+                              },
+                              "styles": {},
+                              "position": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "text": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": null,
+                          "tag": "svg",
+                          "classes": [
+                            "svg-inline--fa",
+                            "fa-laptop",
+                            "fa-stack-1x",
+                            "fa-inverse"
+                          ],
+                          "attributes": {
+                            "aria-hidden": "true",
+                            "focusable": "false",
+                            "data-prefix": "fas",
+                            "data-icon": "laptop",
+                            "role": "img",
+                            "xmlns": "http://www.w3.org/2000/svg",
+                            "viewbox": "0 0 640 512",
+                            "data-fa-i2svg": ""
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": null,
+                          "children": [
+                            {
+                              "id": null,
+                              "tag": "path",
+                              "classes": [],
+                              "attributes": {
+                                "fill": "currentColor",
+                                "d": "M128 96h384v256h64v-272c0-26.38-21.62-48-48-48h-416c-26.38 0-48 21.62-48 48V352h64V96zM624 383.1h-608c-8.75 0-16 7.25-16 16v16c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.2 632.8 383.1 624 383.1z"
+                              },
+                              "styles": {},
+                              "position": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "text": null,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": null,
+                      "tag": "h4",
+                      "classes": [
+                        "my-3"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Campaign Management",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Our platform is completely self service. You control the entire process from beginning to end for every campaign you send. Setup is easy; simply select your opted-in audience and schedule your marketing campaign. Once the campaign is sent, review the results of the campaign right in the platform in the campaign history section.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "We are also excited to introduce AI based segmentation. No longer do you have to manually build segments for your SMS text message campaigns. You can build dynamic, AI based segmentation that continues to update dynamically each time a campaign is sent out. Using the data within your database you can target your customers based on any and all attributes you have available for each customer. You can also send cross channel campaigns ensuring to send out messages across many different channels to ensure you reach your opted-in customers at the right time and place via their mobile device.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "col-md-4"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "span",
+                      "classes": [
+                        "fa-stack",
+                        "fa-4x"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "svg",
+                          "classes": [
+                            "svg-inline--fa",
+                            "fa-circle",
+                            "fa-stack-2x",
+                            "text-primary"
+                          ],
+                          "attributes": {
+                            "aria-hidden": "true",
+                            "focusable": "false",
+                            "data-prefix": "fas",
+                            "data-icon": "circle",
+                            "role": "img",
+                            "xmlns": "http://www.w3.org/2000/svg",
+                            "viewbox": "0 0 512 512",
+                            "data-fa-i2svg": ""
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": null,
+                          "children": [
+                            {
+                              "id": null,
+                              "tag": "path",
+                              "classes": [],
+                              "attributes": {
+                                "fill": "currentColor",
+                                "d": "M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"
+                              },
+                              "styles": {},
+                              "position": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "text": null,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": null,
+                          "tag": "svg",
+                          "classes": [
+                            "svg-inline--fa",
+                            "fa-lock",
+                            "fa-stack-1x",
+                            "fa-inverse"
+                          ],
+                          "attributes": {
+                            "aria-hidden": "true",
+                            "focusable": "false",
+                            "data-prefix": "fas",
+                            "data-icon": "lock",
+                            "role": "img",
+                            "xmlns": "http://www.w3.org/2000/svg",
+                            "viewbox": "0 0 448 512",
+                            "data-fa-i2svg": ""
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": null,
+                          "children": [
+                            {
+                              "id": null,
+                              "tag": "path",
+                              "classes": [],
+                              "attributes": {
+                                "fill": "currentColor",
+                                "d": "M80 192V144C80 64.47 144.5 0 224 0C303.5 0 368 64.47 368 144V192H384C419.3 192 448 220.7 448 256V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V256C0 220.7 28.65 192 64 192H80zM144 192H304V144C304 99.82 268.2 64 224 64C179.8 64 144 99.82 144 144V192z"
+                              },
+                              "styles": {},
+                              "position": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "text": null,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": null,
+                      "tag": "h4",
+                      "classes": [
+                        "my-3"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Strategy",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "If you need assistance, we offer full service campaign management including strategic services for segmentation, frequency, and messaging. Please inquire with your Client Success Manager to learn more about these full services provided by us.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "div",
+                      "classes": [
+                        "text-muted",
+                        "text-decoration-underline"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "SMS Messaging:",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Some of the highlights of our services include white labeled opt in forms. These web forms are double opted in, where not only does your customer have to fill out the form, but the end customer must also reply YES to a message that is sent to the mobile device to confirm that they have the mobile handset within their possession as well as confirming they want to opt-in to the SMS text message program. Using best practices from the CTIA, FCC, TCPA and MMA we provide the best in class services to help you manage your SMS text message program.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "div",
+                      "classes": [
+                        "text-muted",
+                        "text-decoration-underline"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Email Messaging:",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "We have HTML designers available to help revamp your email program or just to help with the day to day HTML requirements of your marketing program. We can complete custom templates where all you have to do is drag and drop your new images and links and do not have to worry about the header and footer of your email. Each template is a la carte, but please reach out to your Client Success Manager for more information. We also have webforms, landing pages and email template ideas available from a partner of ours, simply reach out to your Client Success Manager for more details.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [
+                        "text-muted"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "As industry veterans, we can help provide strategic solutions to help you maintain, grow and nourish your customer base using email and SMS and MMS text messaging marketing. Every customer is unique and we look forward to working with you on your communication strategy.",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "tag": "section",
+      "classes": [
+        "page-section"
+      ],
+      "attributes": {
+        "style": "padding: 0;"
+      },
+      "styles": {
+        "padding": "0"
+      },
+      "position": {
+        "x": 8,
+        "y": 1515.90625,
+        "width": 1264,
+        "height": 323.0625
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "container"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "div",
+              "classes": [
+                "text-center"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "h2",
+                  "classes": [
+                    "section-heading",
+                    "text-uppercase"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": "About",
+                  "children": []
+                },
+                {
+                  "id": null,
+                  "tag": "h3",
+                  "classes": [
+                    "section-subheading",
+                    "text-muted"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Our team is a dedicated mix of marketers and engineers who are dedicated to bringing cutting edge consumer mobile experience communication technologies to any business that is interested in keeping their customers engaged via mobile devices from both email and SMS/MMS text message marketing.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "We are dedicated to providing you the best service in email marketing, text messaging alerts, notifications and marketing messages.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Using our technology you have the ability to send out hundreds of thousands of individualized email and SMS text and MMS text messages through our secure network of providers.",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Using our technology you can rest assured that all messages are compliant with all FCC regulations and guidelines as well as CTIA and MMA regulations and best practices. We also provide white label solutions for opt-in forms, to see an example of our white label please join below\n          to see an example of what your online form could look like. In addition we ensure to set your SMS text message program with all the proper responses to incoming HELP and STOP messages to ensure full TCPA compliance. Our email offerings are fully CAN-SPAM compliant and we work with many of the major ESP’s in order for you to send your email messages. Please reach out to your Client Success Manager for more information on our ESP partnerships.",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "join_now",
+      "tag": "section",
+      "classes": [
+        "page-section"
+      ],
+      "attributes": {},
+      "styles": {},
+      "position": {
+        "x": 8,
+        "y": 1858.875,
+        "width": 1264,
+        "height": 453.90625
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "container"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "div",
+              "classes": [
+                "text-center"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "h2",
+                  "classes": [
+                    "section-heading",
+                    "text-uppercase"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": "Join Now",
+                  "children": []
+                },
+                {
+                  "id": null,
+                  "tag": "h3",
+                  "classes": [
+                    "section-subheading"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "iframe",
+                      "classes": [],
+                      "attributes": {
+                        "src": "https://bulktxtmsg.com/submissionForm.php?visittlfl.com",
+                        "title": "Join",
+                        "scroling": "no",
+                        "style": "overflow: hidden; border: 1px solid; height: 350px; width: 600px; padding: 25px;"
+                      },
+                      "styles": {
+                        "overflow": "hidden",
+                        "border": "1px solid",
+                        "height": "350px",
+                        "width": "600px",
+                        "padding": "25px"
+                      },
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "tag": "section",
+      "classes": [
+        "page-section"
+      ],
+      "attributes": {},
+      "styles": {},
+      "position": {
+        "x": 8,
+        "y": 2332.6875,
+        "width": 1264,
+        "height": 131.625
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "container"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "div",
+              "classes": [
+                "text-center"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "h2",
+                  "classes": [
+                    "section-heading",
+                    "text-uppercase"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": "Contact Us",
+                  "children": []
+                },
+                {
+                  "id": null,
+                  "tag": "h3",
+                  "classes": [
+                    "section-subheading",
+                    "text-white",
+                    "text-opacity-50"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "a",
+                          "classes": [
+                            "text-link"
+                          ],
+                          "attributes": {
+                            "href": "https://forms.gle/GKA2R89dzDktum286",
+                            "target": "_blank"
+                          },
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": "here",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": null,
+                      "tag": "p",
+                      "classes": [],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "We are here to help you successfully manage and send out your SMS and MMS text message campaigns.",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": null,
+      "tag": "footer",
+      "classes": [
+        "footer",
+        "py-4"
+      ],
+      "attributes": {},
+      "styles": {},
+      "position": {
+        "x": 8,
+        "y": 2483.03125,
+        "width": 1264,
+        "height": 36
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "container"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "div",
+              "classes": [
+                "row",
+                "align-items-center"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "col-lg-4",
+                    "text-lg-start"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": []
+                },
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "col-lg-4",
+                    "my-3",
+                    "my-lg-0"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": []
+                },
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "col-lg-4",
+                    "text-lg-end"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "a",
+                      "classes": [
+                        "portfolio-link"
+                      ],
+                      "attributes": {
+                        "data-bs-toggle": "modal",
+                        "href": "#privacypolicymodal"
+                      },
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Privacy Policy",
+                      "children": []
+                    },
+                    {
+                      "id": null,
+                      "tag": "a",
+                      "classes": [
+                        "portfolio-link"
+                      ],
+                      "attributes": {
+                        "data-bs-toggle": "modal",
+                        "href": "#termsofusemodal"
+                      },
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": "Terms and Conditions",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "termsofusemodal",
+      "tag": "div",
+      "classes": [
+        "portfolio-modal",
+        "modal",
+        "fade"
+      ],
+      "attributes": {
+        "tabindex": "-1",
+        "role": "dialog",
+        "aria-hidden": "true"
+      },
+      "styles": {},
+      "position": {
+        "x": 8,
+        "y": 2519.03125,
+        "width": 1264,
+        "height": 2571.4375
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "modal-dialog"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "div",
+              "classes": [
+                "modal-content"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "close-modal"
+                  ],
+                  "attributes": {
+                    "data-bs-dismiss": "modal"
+                  },
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "img",
+                      "classes": [],
+                      "attributes": {
+                        "src": "https://imagedelivery.net/20VEGnO2e-LD8-IWl2wspg/e4d6ae1e-dcd7-44fd-5b6f-6a3761e40300/public",
+                        "alt": "Close modal"
+                      },
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "container"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "div",
+                      "classes": [
+                        "row",
+                        "justify-content-center"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "div",
+                          "classes": [
+                            "col-lg-8"
+                          ],
+                          "attributes": {},
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": null,
+                          "children": [
+                            {
+                              "id": null,
+                              "tag": "div",
+                              "classes": [
+                                "modal-body"
+                              ],
+                              "attributes": {},
+                              "styles": {},
+                              "position": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "text": null,
+                              "children": [
+                                {
+                                  "id": null,
+                                  "tag": "h3",
+                                  "classes": [
+                                    "text-uppercase"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Terms and Conditions",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "These Website Standard Terms and Conditions written on this webpage shall manage your use of our website.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "These Terms will be applied fully and affect to your use of this Website. By using this Website, you agree to accept all terms and conditions written in here. You must not use this Website if you disagree with any of these Website Standard Terms and Conditions.\n                  Minors or people below 18 years old are not allowed to use this Website.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Intellectual Property Rights",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Other than the content you own, under these Terms, this business and/or its licensors own all the intellectual property rights and materials contained in this Website.\n                  You are granted limited license only for purposes of viewing the material contained on this Website.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Restrictions",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "You are specifically restricted from all of the following:",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "ul",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": null,
+                                  "children": [
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "publishing any Website material in any other media;",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "selling, sublicensing and/or otherwise commercializing any Website material;",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "publicly performing and/or showing any Website material;",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "using this Website in any way that is or may be damaging to this Website;",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "using this Website in any way that impacts user access to this Website;",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "using this Website contrary to applicable laws and regulations, or in any way may cause harm to the Website, or to any person or business entity;",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this Website;",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "using this Website to engage in any advertising or marketing.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Certain areas of this Website are restricted from being access by you and this business may further restrict access by you to any areas of this Website, at any time, in absolute discretion. Any user ID and password you may have for this Website are confidential and you must maintain confidentiality as well.",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": null,
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Your Content",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "In these Website Standard Terms and Conditions, \"Your Content\" shall mean any audio, video text, images or other material you choose to display on this Website. By displaying Your Content, you grant this business a non-exclusive, worldwide irrevocable, sub licensable license to use, reproduce, adapt, publish, translate and distribute it in any and all media.\n                  Your Content must be your own and must not be invading any third-party’s rights. We reserve the right to remove any of Your Content from this Website at any time without notice.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Your Privacy",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Please read Privacy Policy.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "No warranties",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "This Website is provided \"as is,\" with all faults, and this business expresses no representations or warranties, of any kind related to this Website or the materials contained on this Website. Also, nothing contained on this Website shall be interpreted as advising you.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Limitation of liability",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "In no event shall this business nor any of its officers, directors and employees, shall be held liable for anything arising out of or in any way connected with your use of this Website whether such liability is under contract. This business, including its officers, directors and employees shall not be held liable for any indirect, consequential or special liability arising out of or in any way related to your use of this Website.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Indemnification",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "You hereby indemnify to the fullest extent this business from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Severability",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "If any provision of these Terms is found to be invalid under any applicable law, such provisions shall be deleted without affecting the remaining provisions herein.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Variation of Terms",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "This business is permitted to revise these Terms at any time as it sees fit, and by using this Website you are expected to review these Terms on a regular basis.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Assignment",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "This business  is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these Terms.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Entire Agreement",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "These Terms constitute the entire agreement between this business and you in relation to your use of this Website, and supersede all prior agreements and understandings.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Governing Law & Jurisdiction",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "These Terms will be governed by and interpreted in accordance with the laws of the state, and you submit to the non-exclusive jurisdiction of the state and federal courts located in the US for the resolution of any disputes.",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacypolicymodal",
+      "tag": "div",
+      "classes": [
+        "portfolio-modal",
+        "modal",
+        "fade"
+      ],
+      "attributes": {
+        "tabindex": "-1",
+        "role": "dialog",
+        "aria-hidden": "true"
+      },
+      "styles": {},
+      "position": {
+        "x": 8,
+        "y": 5106.46875,
+        "width": 1264,
+        "height": 2717.4375
+      },
+      "text": null,
+      "children": [
+        {
+          "id": null,
+          "tag": "div",
+          "classes": [
+            "modal-dialog"
+          ],
+          "attributes": {},
+          "styles": {},
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "text": null,
+          "children": [
+            {
+              "id": null,
+              "tag": "div",
+              "classes": [
+                "modal-content"
+              ],
+              "attributes": {},
+              "styles": {},
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "text": null,
+              "children": [
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "close-modal"
+                  ],
+                  "attributes": {
+                    "data-bs-dismiss": "modal"
+                  },
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "img",
+                      "classes": [],
+                      "attributes": {
+                        "src": "https://imagedelivery.net/20VEGnO2e-LD8-IWl2wspg/e4d6ae1e-dcd7-44fd-5b6f-6a3761e40300/public",
+                        "alt": "Close modal"
+                      },
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": null,
+                  "tag": "div",
+                  "classes": [
+                    "container"
+                  ],
+                  "attributes": {},
+                  "styles": {},
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "text": null,
+                  "children": [
+                    {
+                      "id": null,
+                      "tag": "div",
+                      "classes": [
+                        "row",
+                        "justify-content-center"
+                      ],
+                      "attributes": {},
+                      "styles": {},
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "text": null,
+                      "children": [
+                        {
+                          "id": null,
+                          "tag": "div",
+                          "classes": [
+                            "col-lg-8"
+                          ],
+                          "attributes": {},
+                          "styles": {},
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "text": null,
+                          "children": [
+                            {
+                              "id": null,
+                              "tag": "div",
+                              "classes": [
+                                "modal-body"
+                              ],
+                              "attributes": {},
+                              "styles": {},
+                              "position": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "text": null,
+                              "children": [
+                                {
+                                  "id": null,
+                                  "tag": "h3",
+                                  "classes": [
+                                    "text-uppercase"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Privacy Policy",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "One of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by us and how we use it.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.\n                  This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or we collect. This policy is not applicable to any information collected offline or via channels other than this website.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Consent",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "By using our website, you hereby consent to our Privacy Policy and agree to its terms.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Information we collect",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.\n                  If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "How we use your information",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "We use the information we collect in various ways, including to:",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "ul",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": null,
+                                  "children": [
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Provide, operate, and maintain our website",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Improve, personalize, and expand our website",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Understand and analyze how you use our website",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Develop new products, services, features, and functionality",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Send you emails",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Find and prevent fraud",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": null,
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Log Files",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "This business follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Advertising Partners Privacy Policies",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "You may consult this list to find the Privacy Policy for each of the advertising partners of this business.\n                  Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on this website, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.\n                  Note that this business has no access to or control over these cookies that are used by third-party advertisers.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Third Party Privacy Policies",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Our Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "No mobile information will be shared with third parties/affiliates for marketing/promotional purposes.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "CCPA Privacy Rights (Do Not Sell My Personal Information)",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Under the CCPA, among other rights, California consumers have the right to:",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "ul",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": null,
+                                  "children": [
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Request that a business delete any personal data about the consumer that a business has collected.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "Request that a business that sells a consumer's personal data, not sell the consumer's personal data.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": null,
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "GDPR Data Protection Rights",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "ul",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": null,
+                                  "children": [
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "The right to erasure – You have the right to request that we erase your personal data, under certain conditions.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": null,
+                                      "tag": "li",
+                                      "classes": [],
+                                      "attributes": {},
+                                      "styles": {},
+                                      "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 0,
+                                        "height": 0
+                                      },
+                                      "text": "The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": null,
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [
+                                    "fw-bold"
+                                  ],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Children's Information",
+                                  "children": []
+                                },
+                                {
+                                  "id": null,
+                                  "tag": "p",
+                                  "classes": [],
+                                  "attributes": {},
+                                  "styles": {},
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "text": "Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.\n                  This business does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
